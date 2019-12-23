@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bjsxt.mapper.EmployeeMapper">
+
+
+
+    <select id="selectOne2" resultType="employee">
+
+        SELECT  *  FROM   employee  where  empid=#{0}  and  password=#{1}
+
+    </select>
+
+    <select id="selectMore" resultType="employee">
+
+         SELECT  *  FROM   employee   WHERE  emptype=2
+    </select>
+
+
+    <select id="selectAll" resultType="employee">
+
+        SELECT  *  FROM   employee  e JOIN dept  d   ON  e.`deptno`=d.`deptno`   JOIN   POSITION  p    ON   e.`posid`=p.`posid`
+
+          <where>
+
+              <if test="param1!=null and  param1!=''">
+
+                  <bind name="pa" value="'%'+param1+'%'"/>
+
+                  e.empid like #{pa}
+              </if>
+
+              <if test="param2!=null and  param2!=''">
+
+                  AND e.deptno=#{param2}
+              </if>
+
+              <if test="param3!=null and  param3!=''">
+
+                 and  e.onduty=#{param3}
+              </if>
+
+              <if test="param4!=null and  param4!=''">
+
+                and   e.hireDate=#{param4}
+              </if>
+
+
+          </where>
+
+
+
+    </select>
+
+    <delete id="delete">
+
+        DELETE   from  employee  where  empid =#{0}
+
+    </delete>
+
+    <select id="selectOne" resultType="employee">
+
+        SELECT   *  from  employee  where  empid=#{0}
+
+    </select>
+
+    <insert id="insert">
+
+        insert  into  employee  values(#{empId},#{password},#{deptno},#{posid},
+        #{mgrid},#{realName},#{sex},#{birthDate},
+        #{hireDate},#{leaveDate},#{onDuty},#{empType},
+        #{phone},#{qq},#{emerContactPerson},#{idCard} )
+
+    </insert>
+
+    <update id="update">
+
+        update  employee   SET   password=#{password}, deptno=#{deptno},posid=#{posid},mgrid=#{mgrid},realName=#{realName},
+                                sex=#{sex},birthDate=#{birthDate},hireDate=#{hireDate},leaveDate=#{leaveDate},
+                                onDuty=#{onDuty},empType=#{empType},phone=#{phone},qq=#{qq},emerContactPerson=#{emerContactPerson},idCard=#{idCard}
+
+                                where  empId=#{empId}
+
+
+    </update>
+
+
+
+</mapper>

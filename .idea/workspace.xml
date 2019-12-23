@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5e67bdf-c85c-4368-9879-373eedf4e0f9" name="默认的" comment="默认的">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sxtoa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/AuditingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/DutyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/ExpenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/controller/InComeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/filter/EncFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/filter/Filter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/filter/Filter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/filter/LoginConFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/listener/LogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/listener/OnLineListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/AuditingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/AuditingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/DutyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/DutyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/ExpenseItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/ExpenseItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/ExpenseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/ExpenseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/InComeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/InComeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/PositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/mapper/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/Auditing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/Duty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/ExpenseItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/InCome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/pojo/VN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/AuditingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/DutyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/ExpenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/InComeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/AuditingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/DutyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/ExpenseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/InComeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/service/impl/PositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/test/ExcelOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/test/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bjsxt/util/RandomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sxtoa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.9-20121203.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/audit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auditHistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/deptAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/deptList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/deptUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dutyAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dutyList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/kindeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/emoticons/etc_36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/flash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/plainpaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/remote_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/plugins/wordpaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/div.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/dl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/ol.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/tinymce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/tinymce.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/editor/skins/ul.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/empAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/empInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/empList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/empUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/expenseAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/expenseDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/expenseImg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/expenseList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/expensestatis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bill1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bill2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bill3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/btnbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/buttonbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bz00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bz01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bz02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/c03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/cbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/clist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/d07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/diskbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/f06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/i09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/iadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ibtnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ico06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/inputbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/itabbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/itabbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jszc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jtx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/l04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lc06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/leftmenubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/lefttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/libg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/light1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/line1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/list1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logininfo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginlogo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginpassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginsj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/loginuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/navbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/righttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/rlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sub-menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/t05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/tcbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/th.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/toolbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/topleft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/topright.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ub1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/uew_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/uew_icon_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ulist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/userbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/wx1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yzmbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/incom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/income2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/incomeAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/incomeList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/incomestatis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/PIE.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/format+zh_CN,default,corechart.I.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.ba-resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.gvChart-1.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.idTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jsapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/select-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/myAudit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/myDuty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/myExpense.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/myInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/myPwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/positionAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/positionList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/positionUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/right.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/tech.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/toAudit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/top.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\老师代码\03demo\sxtoa\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1VMsULUHXK9qC9SFM13948Cv55q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="小应用程序">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="应用程序">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_sxtoa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56539" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56544" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.452" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.452" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sxtoa/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/sxtoa" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_452_sxtoa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58024" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.452" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_sxtoa_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58024" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:sxtoa@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:sxtoa@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@44752ca0" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5e67bdf-c85c-4368-9879-373eedf4e0f9" name="默认的" comment="" />
+      <created>1565686473909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565686473909</updated>
+      <workItem from="1565686475485" duration="630000" />
+      <workItem from="1565700218527" duration="1273000" />
+      <workItem from="1565743258781" duration="1130000" />
+      <workItem from="1566012884182" duration="3016000" />
+      <workItem from="1566912601687" duration="829000" />
+      <workItem from="1567825118260" duration="2779000" />
+      <workItem from="1571405675740" duration="148000" />
+      <workItem from="1577074314006" duration="11143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#TomEE_Server" timestamp="1577076809944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#TomEE_Server/0.0.1366.728@0.0.1366.728" timestamp="1577076809944" />
+    <state x="275" y="25" key="#Tomcat_Server" timestamp="1577080753450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Tomcat_Server/0.0.1366.728@0.0.1366.728" timestamp="1577080753450" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577081764485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577081764485" />
+    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577076769580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1577076769580" />
+    <state x="275" y="25" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1577081117317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1577081117317" />
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1577090508735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577090508735" />
+    <state x="576" y="116" key="FileChooserDialogImpl" timestamp="1577091210871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="576" y="116" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577091210871" />
+    <state x="558" y="259" width="274" height="209" key="Github.ShareDialog" timestamp="1577087920864">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="558" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1577087920864" />
+    <state x="495" y="69" key="Github.UntrackedFilesDialog" timestamp="1577087928811">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="495" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577087928811" />
+    <state width="905" height="171" key="GridCell.Tab.0.bottom" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.0.center" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.0.left" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.0.right" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.1.bottom" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.1.center" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.1.left" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.1.right" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.2.bottom" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.2.center" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.2.left" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state width="905" height="171" key="GridCell.Tab.2.right" timestamp="1577081765795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="171" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577081765795" />
+    <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1577087113843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="67" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1577087113843" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1577086254077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577086254077" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1577090588933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577090588933" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1577075329217">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1366.728@0.0.1366.728" timestamp="1577075329217" />
+    <state x="57" y="0" key="new project wizard" timestamp="1577079767483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1577079767483" />
+  </component>
+</project>
